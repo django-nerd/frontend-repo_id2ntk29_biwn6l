@@ -3,7 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 330 ms
+  VITE v5.4.20  ready in 306 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.1.23:3000/
@@ -14,6 +14,3 @@
    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 6  |  
 7  |  @layer base {
-8:51:04 PM [vite] Pre-transform error: Failed to resolve import "react-helmet" from "src/components/SEO.jsx". Does the file exist?
-8:51:05 PM [vite] ✨ new dependencies optimized: lucide-react
-8:51:05 PM [vite] ✨ optimized dependencies changed. reloading
