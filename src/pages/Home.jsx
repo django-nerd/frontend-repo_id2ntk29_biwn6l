@@ -1,12 +1,18 @@
-import Hero from '../components/Hero'
+import BackgroundFX from '../components/BackgroundFX'
+import LandingHero from '../components/LandingHero'
+import FeatureGrid from '../components/FeatureGrid'
 import { Themes, Special } from '../components/HomeSections'
+import SplitCTA from '../components/SplitCTA'
 
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <BackgroundFX />
+      <LandingHero />
+      <FeatureGrid />
       <Themes />
       <Special />
+      <SplitCTA />
     </main>
   )
 }

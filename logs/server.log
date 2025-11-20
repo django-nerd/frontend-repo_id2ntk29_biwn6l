@@ -3,10 +3,19 @@
 > vite
 
 
-  VITE v5.4.20  ready in 306 ms
+  VITE v5.4.20  ready in 323 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.1.23:3000/
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+3  |  @tailwind utilities;
+4  |  
+5  |  @import './styles/forms.css';
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+6  |  
+7  |  @layer base {
+9:03:44 PM [vite] ✨ new dependencies optimized: framer-motion
+9:03:44 PM [vite] ✨ optimized dependencies changed. reloading
 [vite:css] @import must precede all other statements (besides @charset or empty @layer)
 3  |  @tailwind utilities;
 4  |  
