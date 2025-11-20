@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .input {
+    @apply w-full px-3 py-2 rounded-lg bg-white/5 text-slate-100 placeholder-slate-400 ring-1 ring-white/10 focus:outline-none focus:ring-2 focus:ring-blue-500/60;
+  }
+}
